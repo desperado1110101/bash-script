@@ -1,0 +1,8 @@
+#!/bin/bash
+
+aideChanges=$(aide --config=/etc/aide/aide.conf --check)
+#aide --config=/etc/aide/aide.conf --init
+#aide --config=/etc/aide/aide.conf --check
+
+
+echo $aideChanges

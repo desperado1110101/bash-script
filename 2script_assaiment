@@ -1,0 +1,31 @@
+#!/bin/bash
+
+aide --config=/etc/aide/aide.conf --check > aide_result
+
+grep Start results | cut -d' ' -f3,4 > aideres
+echo
+echo "date and time"
+cat aideres
+  
+grep f+++ results > /dev/null
+if [ $? == 0 ]
+then
+	grep f++++ results | cut -d':' -f2 > aideres
+	echo
+	echo "files added"
+	cat aideres
+	
+	grep f---- results | cut -d':' -f2 > aideres
+	echo
+	echo "files removed"
+	cat aideres
+
+	grep File: results | cut -d':' -f2 > test
+	echo
+	echo "files changed"
+	cat test
+else
+	echo "no files added"
+fi
+
+

@@ -1,0 +1,34 @@
+#!bin/bash
+echo hell world
+t=$(whoami)
+#making folder and three files into logged  on user home folder
+#for root folder was greated  /home/root
+mkdir /home/$t
+mkdir /home/$t/securityinfo
+touch /home/$t/securityinfo/one
+touch /home/$t/securityinfo/two
+touch /home/$t/securityinfo/three
+echo folder security info and files  one two and three was greated
+echo into /home/$t directory
+#making the folder and file interactivly asking user filename and foldername
+echo please enter the folder name
+read ff
+mkdir /home/$t/securityinfo/$ff
+echo please enter the file name
+read fl
+touch /home/$t/securityinfo/$ff/$fl
+mkdir /home/$t/copyhere
+cp -avr  /home/$t/securityinfo/*  /home/$t/copyhere/
+rm -r -f /home/$t/securityinfo
+
+
+#chmod +x myscript
+
+
+
+
+          
+
+
+
+

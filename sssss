@@ -1,0 +1,35 @@
+aide --config=/etc/aide/aide.conf --check
+$?
+if returns 0 send email
+
+mailx -s "theme" user@
+
+
+greate ver = 5
+var=5
+case var in
+	0)
+echo "vereble is 0"
+;;
+echo "vereible is 1"
+
+grep
+(command)
+cut -d`:` -f1 /etc/password
+
+exer:
+great a text file some lines of text
+zebra donkey elephant cat dog cherry plum
+setup while loop to read each line of a text
+and echo to the screen
+
+!#bin/bash
+filename=company.txt
+while read line; do
+echo "line No. $n : $line"
+if [$line =="elephant" ]
+then echo "found it"
+done <$filename
+
+
+

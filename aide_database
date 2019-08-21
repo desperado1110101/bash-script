@@ -1,0 +1,500 @@
+Start timestamp: 2019-08-20 13:38:54 +1000 (AIDE 0.16.1)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	18519
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		20
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc .  .  : /etc
+f > ... mc .C .  : /etc/group
+f > ... mc .C .  : /etc/group-
+f > ... mc .C .  : /etc/gshadow
+f > ... mc .C .  : /etc/gshadow-
+f > ... mc .C .  : /etc/passwd
+f > ... mc .C .  : /etc/passwd-
+f > ... mc .C .  : /etc/shadow
+f > ... mc .C .  : /etc/shadow-
+f > ... mc .C .  : /etc/subgid
+f > ... mc .C .  : /etc/subgid-
+f > ... mc .C .  : /etc/subuid
+f > ... mc .C .  : /etc/subuid-
+f > ... mc .C .  : /root/.bash_history
+d = ... mc .  .  : /root/.cache/mc
+f = ... mc .. .  : /root/.cache/mc/Tree
+d = ... mc .  .  : /root/.config/mc
+f = ... mc .. .  : /root/.config/mc/ini
+d = ... mc .  .  : /root/.local/share/mc
+f = ... mc .. .  : /root/.local/share/mc/history
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /etc
+  Mtime    : 2019-08-20 13:14:32 +1000        | 2019-08-20 13:38:46 +1000
+  Ctime    : 2019-08-20 13:14:32 +1000        | 2019-08-20 13:38:46 +1000
+
+File: /etc/group
+  Size     : 1165                             | 1180
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : Rxd3luH1z2Ab3ZIbN1M7OA==         | vhB8K5JaJzI4OcKDmEeqDA==
+  SHA512   : QowGE4NNcGB4z34H5fE8YTfMIzI7zVfc | pu6Fi2koCUUoNhTtUoRWX6jPkNqlp67C
+             KDMCgny3q8NZVd4Xad07Fr3lbjIUW7Fy | ssHx/mCtaLgNNIVtdtNlZx06StEAmjuI
+             zapNgY0pECKE50bEJQVrFg==         | Zme+w0ojpFHmA0J09+KcxA==
+
+File: /etc/group-
+  Size     : 1151                             | 1165
+  Mtime    : 2019-05-28 17:49:03 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : HJJE8njwDJEh8fDr8ikCzg==         | Rxd3luH1z2Ab3ZIbN1M7OA==
+  SHA512   : 7P1wZhAjyfOVVUahuQA4V4q/6BjEgLjw | QowGE4NNcGB4z34H5fE8YTfMIzI7zVfc
+             kdMOto3CHEXYM1/UIvbjACbGXLZ0N454 | KDMCgny3q8NZVd4Xad07Fr3lbjIUW7Fy
+             iiga6v6c06j3Vj6jFdjbFg==         | zapNgY0pECKE50bEJQVrFg==
+
+File: /etc/gshadow
+  Size     : 963                              | 974
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : NR3v5s/yDEvfal29rq2RoA==         | A4LJcsqoLRKXsqDzXTE/Ww==
+  SHA512   : mFedqdpRWP5yY7qJRHOGO5LIKXeEB7xb | LMYznW+sGyvL8FshdxjZNCJm3lySVPjK
+             EPtDa+xQK8aTKvuk6dK97A/RkTWkm15M | XeihAL+kxg1tWBld/y/spkmaX03PTltm
+             TOFReiNjzwoyR1fKIpwkEw==         | pbe7rIOSWcKaD7BkI2TpuQ==
+
+File: /etc/gshadow-
+  Size     : 953                              | 963
+  Mtime    : 2019-05-28 17:49:03 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : my2MWG/ZH7uM6jCdXPA22Q==         | NR3v5s/yDEvfal29rq2RoA==
+  SHA512   : E9oIlq6fgvCuZMcsL4ONDY/5LRyly1MM | mFedqdpRWP5yY7qJRHOGO5LIKXeEB7xb
+             rdM6VJtDB6L7g0/FWKNz4oJdvUt7h8Cx | EPtDa+xQK8aTKvuk6dK97A/RkTWkm15M
+             DEC0aAq6WgNRf/Mh4zbjaw==         | TOFReiNjzwoyR1fKIpwkEw==
+
+File: /etc/passwd
+  Size     : 3051                             | 3097
+  Mtime    : 2019-07-30 18:50:28 +1000        | 2019-08-20 13:38:46 +1000
+  Ctime    : 2019-07-30 18:50:28 +1000        | 2019-08-20 13:38:46 +1000
+  MD5      : JAWw16KE5wuTxF4F0NDoYA==         | jJLmHwNeHv054b0JhGCCqg==
+  SHA512   : VUy9CFryDtm1MQLyWhs2xWHgrxe6uJqU | Pjh51MFcXb0WjQ4NHDdtbgwyFBjeJO/Y
+             CUbmyRa288wXKDwtkO3ogk0DD8Evpqj/ | zYTZ6u/7kYg7WbIWiX/y+67ykE7M7bmg
+             BWadxt558ghIifwlhSgEfw==         | 69B50LGv7hiKARxGDkO5Tg==
+
+File: /etc/passwd-
+  Size     : 3048                             | 3094
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:28 +1000        | 2019-08-20 13:38:46 +1000
+  MD5      : EWQAiykXi67wFZ/6hpHOsg==         | RE1XARgUNUEYkVRiRvmlYA==
+  SHA512   : M2vylPKk5Rv3bjlWJjZ3UNR0Azxj9KFv | rgQdVa3MiakqEA6q6BgqA35WYF+A9RGr
+             h9KeLpPbATplQEbaBVexqgZXWwVtJAt8 | CncgUZzkQrAPSi2X0wklrM2KA0UZbcmk
+             7w7ss1CMEFtrDWuF4K+vvA==         | ldbqbU5Sp/6BzQqOkGBlKQ==
+
+File: /etc/shadow
+  Size     : 1840                             | 1965
+  Mtime    : 2019-07-30 18:50:27 +1000        | 2019-08-20 13:38:43 +1000
+  Ctime    : 2019-07-30 18:50:27 +1000        | 2019-08-20 13:38:43 +1000
+  MD5      : cdQ6ZucUvflRnPdtre2jIA==         | ONh3NzJjKu5m/MLTQA1dgQ==
+  SHA512   : htIee6lKno2hzPYK8x2EeDj1Os0rJCSo | km73JGD6LHHYBrltKAHZUgdw4jrjf7v+
+             mf3gg6+tuQBAbkAAKKnwK1rT3KLt07ZQ | dtBiCdILu1UvcnoFZvXxrtsixpgKj+qe
+             2+wobQhMODYWh4oqQV0VvQ==         | 74+Avr173S3zXXr9jGZwqw==
+
+File: /etc/shadow-
+  Size     : 1716                             | 1840
+  Mtime    : 2019-05-09 18:55:04 +1000        | 2019-07-30 18:50:27 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : i3j7X1lcK/dP4BF4T8XZYw==         | cdQ6ZucUvflRnPdtre2jIA==
+  SHA512   : T6j0PmNixeVNXGs1d/m/jBh7QRYsBcrW | htIee6lKno2hzPYK8x2EeDj1Os0rJCSo
+             4IDYUYVAeisJIHujwHb7VTw/tQvOaJ1Z | mf3gg6+tuQBAbkAAKKnwK1rT3KLt07ZQ
+             hzUb/tNkL+DAvu+5M/YKOA==         | 2+wobQhMODYWh4oqQV0VvQ==
+
+File: /etc/subgid
+  Size     : 42                               | 62
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 91fjfMdX86N4dgCb1Le54Q==         | 6xGMOALZYkgEcjtzg8GtrQ==
+  SHA512   : v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO | Dqa6UhE/m2CzY/ClN4ewP6jZc3KWPASL
+             l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD | swQg8FxHb40enWe0ZVcaAzTcuEAly71P
+             2RgfF+pUids4/CUjnmm44Q==         | fe/qbvU/pptR/nYqkMsPGg==
+
+File: /etc/subgid-
+  Size     : 23                               | 42
+  Mtime    : 2019-05-09 18:54:54 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 8peIpvb86jo2P6vFyG+cCw==         | 91fjfMdX86N4dgCb1Le54Q==
+  SHA512   : dqiG0LqGjpZ3+svMrY4XOiHWs9CMpnTL | v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO
+             L2K4k1nqqNJyB8Xhby3BWZvF+FDNFnlC | l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD
+             ol+p5dxtpX+uK/1S0m3ghQ==         | 2RgfF+pUids4/CUjnmm44Q==
+
+File: /etc/subuid
+  Size     : 42                               | 62
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 91fjfMdX86N4dgCb1Le54Q==         | 6xGMOALZYkgEcjtzg8GtrQ==
+  SHA512   : v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO | Dqa6UhE/m2CzY/ClN4ewP6jZc3KWPASL
+             l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD | swQg8FxHb40enWe0ZVcaAzTcuEAly71P
+             2RgfF+pUids4/CUjnmm44Q==         | fe/qbvU/pptR/nYqkMsPGg==
+
+File: /etc/subuid-
+  Size     : 23                               | 42
+  Mtime    : 2019-05-09 18:54:54 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 8peIpvb86jo2P6vFyG+cCw==         | 91fjfMdX86N4dgCb1Le54Q==
+  SHA512   : dqiG0LqGjpZ3+svMrY4XOiHWs9CMpnTL | v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO
+             L2K4k1nqqNJyB8Xhby3BWZvF+FDNFnlC | l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD
+             ol+p5dxtpX+uK/1S0m3ghQ==         | 2RgfF+pUids4/CUjnmm44Q==
+
+File: /root/.bash_history
+  Size     : 8046                             | 8067
+  Mtime    : 2019-08-19 18:36:47 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:27:51 +1000        | 2019-08-20 13:37:50 +1000
+  MD5      : bAjFgzXMokDEErKTd7DSfw==         | QHMFbdsx33Vu5kUSTxBW3A==
+  SHA512   : lXYszUXWmx8Jq+z8xwdw8f3JJYyx6m+L | M64n3DwQi2yu3jceQLJ8+O8pxaOH3Q5s
+             VfFVFVFq7hWzCJ2UbUR9dMgrVSd3GHsV | lFHKWBY83yl+5eWiZwcoEePgWQgh87kQ
+             FRiI31D2iVmdWwDdoK8DGg==         | u/FesgQUzGi38fPpYqUJCQ==
+
+Directory: /root/.cache/mc
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+File: /root/.cache/mc/Tree
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+Directory: /root/.config/mc
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+File: /root/.config/mc/ini
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+Directory: /root/.local/share/mc
+  Mtime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+
+File: /root/.local/share/mc/history
+  Mtime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+  MD5      : IJoi1D1ZcgIZAPVlYUhcKg==
+  SHA1     : gISVwKVWG0Phi9ipuBo5qtEkDww=
+  RMD160   : Ch32qYFmDxKganYSp92Ot5JVvu4=
+  TIGER    : XDkji/O+moe+EG9+930lL02oqoLpNFw9
+  SHA256   : vQKOTo3BrWxLOFJk1zSPPPqP9xg48PXP
+             mitFPjb7JPA=
+  SHA512   : tSeQ4V84aSg41rAQoEkOskbnn8JllM5h
+             eZNRA+PZKRNjM+GYHuSej5vj/unXOdtC
+             aHk9hiopFfJCBda9zF2Odw==
+  CRC32    : kIs9Lg==
+  HAVAL    : H3oem47oDFvZf5bOZZpf4XUnf2ZUZHsH
+             EGHPur9Iv4g=
+  GOST     : 2mTp8Hygn35tNgKslig1JVuXgxHsRxx0
+             C2a4y+dOuuw=
+  WHIRLPOOL: Sd+LiYHA72ANJFoME5AeKbxuOgCQFy5m
+             wPZONf5bbW7AsT+JV4s38188fglMQzyt
+             xjz2EL7C6y11ZrtE1NdBEg==
+
+
+End timestamp: 2019-08-20 13:39:27 +1000 (run time: 0m 33s)
+Start timestamp: 2019-08-20 13:38:54 +1000 (AIDE 0.16.1)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	18519
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		20
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc .  .  : /etc
+f > ... mc .C .  : /etc/group
+f > ... mc .C .  : /etc/group-
+f > ... mc .C .  : /etc/gshadow
+f > ... mc .C .  : /etc/gshadow-
+f > ... mc .C .  : /etc/passwd
+f > ... mc .C .  : /etc/passwd-
+f > ... mc .C .  : /etc/shadow
+f > ... mc .C .  : /etc/shadow-
+f > ... mc .C .  : /etc/subgid
+f > ... mc .C .  : /etc/subgid-
+f > ... mc .C .  : /etc/subuid
+f > ... mc .C .  : /etc/subuid-
+f > ... mc .C .  : /root/.bash_history
+d = ... mc .  .  : /root/.cache/mc
+f = ... mc .. .  : /root/.cache/mc/Tree
+d = ... mc .  .  : /root/.config/mc
+f = ... mc .. .  : /root/.config/mc/ini
+d = ... mc .  .  : /root/.local/share/mc
+f = ... mc .. .  : /root/.local/share/mc/history
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /etc
+  Mtime    : 2019-08-20 13:14:32 +1000        | 2019-08-20 13:38:46 +1000
+  Ctime    : 2019-08-20 13:14:32 +1000        | 2019-08-20 13:38:46 +1000
+
+File: /etc/group
+  Size     : 1165                             | 1180
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : Rxd3luH1z2Ab3ZIbN1M7OA==         | vhB8K5JaJzI4OcKDmEeqDA==
+  SHA512   : QowGE4NNcGB4z34H5fE8YTfMIzI7zVfc | pu6Fi2koCUUoNhTtUoRWX6jPkNqlp67C
+             KDMCgny3q8NZVd4Xad07Fr3lbjIUW7Fy | ssHx/mCtaLgNNIVtdtNlZx06StEAmjuI
+             zapNgY0pECKE50bEJQVrFg==         | Zme+w0ojpFHmA0J09+KcxA==
+
+File: /etc/group-
+  Size     : 1151                             | 1165
+  Mtime    : 2019-05-28 17:49:03 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : HJJE8njwDJEh8fDr8ikCzg==         | Rxd3luH1z2Ab3ZIbN1M7OA==
+  SHA512   : 7P1wZhAjyfOVVUahuQA4V4q/6BjEgLjw | QowGE4NNcGB4z34H5fE8YTfMIzI7zVfc
+             kdMOto3CHEXYM1/UIvbjACbGXLZ0N454 | KDMCgny3q8NZVd4Xad07Fr3lbjIUW7Fy
+             iiga6v6c06j3Vj6jFdjbFg==         | zapNgY0pECKE50bEJQVrFg==
+
+File: /etc/gshadow
+  Size     : 963                              | 974
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : NR3v5s/yDEvfal29rq2RoA==         | A4LJcsqoLRKXsqDzXTE/Ww==
+  SHA512   : mFedqdpRWP5yY7qJRHOGO5LIKXeEB7xb | LMYznW+sGyvL8FshdxjZNCJm3lySVPjK
+             EPtDa+xQK8aTKvuk6dK97A/RkTWkm15M | XeihAL+kxg1tWBld/y/spkmaX03PTltm
+             TOFReiNjzwoyR1fKIpwkEw==         | pbe7rIOSWcKaD7BkI2TpuQ==
+
+File: /etc/gshadow-
+  Size     : 953                              | 963
+  Mtime    : 2019-05-28 17:49:03 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : my2MWG/ZH7uM6jCdXPA22Q==         | NR3v5s/yDEvfal29rq2RoA==
+  SHA512   : E9oIlq6fgvCuZMcsL4ONDY/5LRyly1MM | mFedqdpRWP5yY7qJRHOGO5LIKXeEB7xb
+             rdM6VJtDB6L7g0/FWKNz4oJdvUt7h8Cx | EPtDa+xQK8aTKvuk6dK97A/RkTWkm15M
+             DEC0aAq6WgNRf/Mh4zbjaw==         | TOFReiNjzwoyR1fKIpwkEw==
+
+File: /etc/passwd
+  Size     : 3051                             | 3097
+  Mtime    : 2019-07-30 18:50:28 +1000        | 2019-08-20 13:38:46 +1000
+  Ctime    : 2019-07-30 18:50:28 +1000        | 2019-08-20 13:38:46 +1000
+  MD5      : JAWw16KE5wuTxF4F0NDoYA==         | jJLmHwNeHv054b0JhGCCqg==
+  SHA512   : VUy9CFryDtm1MQLyWhs2xWHgrxe6uJqU | Pjh51MFcXb0WjQ4NHDdtbgwyFBjeJO/Y
+             CUbmyRa288wXKDwtkO3ogk0DD8Evpqj/ | zYTZ6u/7kYg7WbIWiX/y+67ykE7M7bmg
+             BWadxt558ghIifwlhSgEfw==         | 69B50LGv7hiKARxGDkO5Tg==
+
+File: /etc/passwd-
+  Size     : 3048                             | 3094
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:28 +1000        | 2019-08-20 13:38:46 +1000
+  MD5      : EWQAiykXi67wFZ/6hpHOsg==         | RE1XARgUNUEYkVRiRvmlYA==
+  SHA512   : M2vylPKk5Rv3bjlWJjZ3UNR0Azxj9KFv | rgQdVa3MiakqEA6q6BgqA35WYF+A9RGr
+             h9KeLpPbATplQEbaBVexqgZXWwVtJAt8 | CncgUZzkQrAPSi2X0wklrM2KA0UZbcmk
+             7w7ss1CMEFtrDWuF4K+vvA==         | ldbqbU5Sp/6BzQqOkGBlKQ==
+
+File: /etc/shadow
+  Size     : 1840                             | 1965
+  Mtime    : 2019-07-30 18:50:27 +1000        | 2019-08-20 13:38:43 +1000
+  Ctime    : 2019-07-30 18:50:27 +1000        | 2019-08-20 13:38:43 +1000
+  MD5      : cdQ6ZucUvflRnPdtre2jIA==         | ONh3NzJjKu5m/MLTQA1dgQ==
+  SHA512   : htIee6lKno2hzPYK8x2EeDj1Os0rJCSo | km73JGD6LHHYBrltKAHZUgdw4jrjf7v+
+             mf3gg6+tuQBAbkAAKKnwK1rT3KLt07ZQ | dtBiCdILu1UvcnoFZvXxrtsixpgKj+qe
+             2+wobQhMODYWh4oqQV0VvQ==         | 74+Avr173S3zXXr9jGZwqw==
+
+File: /etc/shadow-
+  Size     : 1716                             | 1840
+  Mtime    : 2019-05-09 18:55:04 +1000        | 2019-07-30 18:50:27 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : i3j7X1lcK/dP4BF4T8XZYw==         | cdQ6ZucUvflRnPdtre2jIA==
+  SHA512   : T6j0PmNixeVNXGs1d/m/jBh7QRYsBcrW | htIee6lKno2hzPYK8x2EeDj1Os0rJCSo
+             4IDYUYVAeisJIHujwHb7VTw/tQvOaJ1Z | mf3gg6+tuQBAbkAAKKnwK1rT3KLt07ZQ
+             hzUb/tNkL+DAvu+5M/YKOA==         | 2+wobQhMODYWh4oqQV0VvQ==
+
+File: /etc/subgid
+  Size     : 42                               | 62
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 91fjfMdX86N4dgCb1Le54Q==         | 6xGMOALZYkgEcjtzg8GtrQ==
+  SHA512   : v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO | Dqa6UhE/m2CzY/ClN4ewP6jZc3KWPASL
+             l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD | swQg8FxHb40enWe0ZVcaAzTcuEAly71P
+             2RgfF+pUids4/CUjnmm44Q==         | fe/qbvU/pptR/nYqkMsPGg==
+
+File: /etc/subgid-
+  Size     : 23                               | 42
+  Mtime    : 2019-05-09 18:54:54 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 8peIpvb86jo2P6vFyG+cCw==         | 91fjfMdX86N4dgCb1Le54Q==
+  SHA512   : dqiG0LqGjpZ3+svMrY4XOiHWs9CMpnTL | v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO
+             L2K4k1nqqNJyB8Xhby3BWZvF+FDNFnlC | l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD
+             ol+p5dxtpX+uK/1S0m3ghQ==         | 2RgfF+pUids4/CUjnmm44Q==
+
+File: /etc/subuid
+  Size     : 42                               | 62
+  Mtime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 91fjfMdX86N4dgCb1Le54Q==         | 6xGMOALZYkgEcjtzg8GtrQ==
+  SHA512   : v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO | Dqa6UhE/m2CzY/ClN4ewP6jZc3KWPASL
+             l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD | swQg8FxHb40enWe0ZVcaAzTcuEAly71P
+             2RgfF+pUids4/CUjnmm44Q==         | fe/qbvU/pptR/nYqkMsPGg==
+
+File: /etc/subuid-
+  Size     : 23                               | 42
+  Mtime    : 2019-05-09 18:54:54 +1000        | 2019-07-30 18:50:16 +1000
+  Ctime    : 2019-07-30 18:50:16 +1000        | 2019-08-20 13:38:33 +1000
+  MD5      : 8peIpvb86jo2P6vFyG+cCw==         | 91fjfMdX86N4dgCb1Le54Q==
+  SHA512   : dqiG0LqGjpZ3+svMrY4XOiHWs9CMpnTL | v0WyxLaaANpIeBbW+d3Y+FHeswgIDBFO
+             L2K4k1nqqNJyB8Xhby3BWZvF+FDNFnlC | l6hxQwE5A9XKYtvZ/xCUn1pfkX47WFlD
+             ol+p5dxtpX+uK/1S0m3ghQ==         | 2RgfF+pUids4/CUjnmm44Q==
+
+File: /root/.bash_history
+  Size     : 8046                             | 8067
+  Mtime    : 2019-08-19 18:36:47 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:27:51 +1000        | 2019-08-20 13:37:50 +1000
+  MD5      : bAjFgzXMokDEErKTd7DSfw==         | QHMFbdsx33Vu5kUSTxBW3A==
+  SHA512   : lXYszUXWmx8Jq+z8xwdw8f3JJYyx6m+L | M64n3DwQi2yu3jceQLJ8+O8pxaOH3Q5s
+             VfFVFVFq7hWzCJ2UbUR9dMgrVSd3GHsV | lFHKWBY83yl+5eWiZwcoEePgWQgh87kQ
+             FRiI31D2iVmdWwDdoK8DGg==         | u/FesgQUzGi38fPpYqUJCQ==
+
+Directory: /root/.cache/mc
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+File: /root/.cache/mc/Tree
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+Directory: /root/.config/mc
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+File: /root/.config/mc/ini
+  Mtime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:25:53 +1000        | 2019-08-20 13:37:50 +1000
+
+Directory: /root/.local/share/mc
+  Mtime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+
+File: /root/.local/share/mc/history
+  Mtime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+  Ctime    : 2019-08-20 13:28:45 +1000        | 2019-08-20 13:37:50 +1000
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+  MD5      : IJoi1D1ZcgIZAPVlYUhcKg==
+  SHA1     : gISVwKVWG0Phi9ipuBo5qtEkDww=
+  RMD160   : Ch32qYFmDxKganYSp92Ot5JVvu4=
+  TIGER    : XDkji/O+moe+EG9+930lL02oqoLpNFw9
+  SHA256   : vQKOTo3BrWxLOFJk1zSPPPqP9xg48PXP
+             mitFPjb7JPA=
+  SHA512   : tSeQ4V84aSg41rAQoEkOskbnn8JllM5h
+             eZNRA+PZKRNjM+GYHuSej5vj/unXOdtC
+             aHk9hiopFfJCBda9zF2Odw==
+  CRC32    : kIs9Lg==
+  HAVAL    : H3oem47oDFvZf5bOZZpf4XUnf2ZUZHsH
+             EGHPur9Iv4g=
+  GOST     : 2mTp8Hygn35tNgKslig1JVuXgxHsRxx0
+             C2a4y+dOuuw=
+  WHIRLPOOL: Sd+LiYHA72ANJFoME5AeKbxuOgCQFy5m
+             wPZONf5bbW7AsT+JV4s38188fglMQzyt
+             xjz2EL7C6y11ZrtE1NdBEg==
+
+
+End timestamp: 2019-08-20 13:39:27 +1000 (run time: 0m 33s)
+Start timestamp: 2019-08-20 13:54:46 +1000 (AIDE 0.16.1)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	18519
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		7
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f = ... .c .. .  : /root/.bash_history
+d = ... mc .  .  : /root/.cache/mc
+f = ... mc .. .  : /root/.cache/mc/Tree
+d = ... mc .  .  : /root/.config/mc
+f = ... mc .. .  : /root/.config/mc/ini
+d = ... mc .  .  : /root/.local/share/mc
+f = ... mc .C .  : /root/.local/share/mc/history
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /root/.bash_history
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:49:39 +1000
+
+Directory: /root/.cache/mc
+  Mtime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+
+File: /root/.cache/mc/Tree
+  Mtime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+
+Directory: /root/.config/mc
+  Mtime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+
+File: /root/.config/mc/ini
+  Mtime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+
+Directory: /root/.local/share/mc
+  Mtime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+
+File: /root/.local/share/mc/history
+  Mtime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  Ctime    : 2019-08-20 13:37:50 +1000        | 2019-08-20 13:50:56 +1000
+  MD5      : nuCUsAZAOZOBG0XOezYcww==         | w6zoCe/eNkKGCFwJEON9yQ==
+  SHA512   : JxgmYZYoAXJL7NI1SUDifsThJVdIyl7A | qtFq1hW7gs/7f478Raio8VIa2k2wdjQQ
+             m7XmmTxCGAYkQgWfhwB4eFeAKZl8caiJ | sqH9ai9gMCEIaPud87cH+2swKIrVDMOh
+             iTDsy30hVSz2wSmypCRIMg==         | ElTn8oVNngBT2zOOI+bpyQ==
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+  MD5      : XIC4fsE/nwtRMc4684d6AA==
+  SHA1     : z3l2468u+q1UhAJIVwg4gTOj3cQ=
+  RMD160   : LDHO9gaYIsMS1YLTUKD487UCsxU=
+  TIGER    : LBWINBR/CO7qAMEYJLJMHRFmSvxYPkrU
+  SHA256   : f/704QdFKmZhmdg2cwO5ixwNUidMZfYq
+             ItpNswR95io=
+  SHA512   : lM32KdQVBVT8L3PERLdsYADxBF6SY6DC
+             nuzNWVW0ALjaVffoBi4e+bbMH1eH5e2r
+             8oOzCj5fG8y1dsjCOCxXlA==
+  CRC32    : 12Kcfw==
+  HAVAL    : OaGnymK5qtmqDrx8Ect5uhaAWcNao7MN
+             Vnk59S56mZc=
+  GOST     : w0m5Xq4WHtMYjk2QQZjl5FgvG2MEYmJm
+             O4PDlhmvxXs=
+  WHIRLPOOL: 1TGztToGNeBJap1U6x6Bs3PfNxLfvTlt
+             4tnHSBw1r0B3+Akki0widKkEzcD4PpMb
+             EOYQ6jRAI/whczRONwHwTQ==
+
+
+End timestamp: 2019-08-20 13:55:19 +1000 (run time: 0m 33s)

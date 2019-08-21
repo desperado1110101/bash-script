@@ -1,0 +1,56 @@
+#!/bin/bash
+
+ 
+aide --config=/etc/aide/aide.conf --check >aideresult
+getOption="hi"
+while [ $getOption != "exit" ]
+do
+	echo "1. Added"
+	echo "2. removed"
+	echo "3. changed"
+	echo "4. Exit"
+	read getOption
+
+	case $getOption in
+		"1")
+		echo "added"
+		grep -i "f++++++++++++++++" aideresult
+		grep -i "d++++++++++++++++" aideresult  
+		;;
+		"2")
+		echo "removed"
+		grep -i "f\-\-\-:" aideresult
+		grep -i "d\-\-\-:" aideresult
+		#echo $(cat $aideChanges | grep "f\-\-\-:")
+		#echo $(cat $aideChanges | grep "d\-\-\-:")
+		;;
+		"3")
+		echo "changed"
+		#echo $(cat $aideChanges | grep "f =")
+		grep -i "f =" aideresult
+		grep -i "d =" aideresult
+		grep -i "f >" aideresult
+		grep -i "d >" aideresult
+		grep -i "f <" aideresult
+		grep -i "d <" aideresult
+		#echo $(cat $aideChanges | grep "d =")
+		#echo $(cat $aideChanges | grep "f >")
+		#echo $(cat $aideChanges | grep "d >")
+		#echo $(cat $aideChanges | grep "f <")
+		#echo $(cat $aideChanges | grep "d <")
+		;;
+		"4")
+		getOption="exit"
+		;;
+                #echo $(cat $aideChanges | grep "f >")
+                #echo $(cat $aideChanges | grep "d >")
+                #echo $(cat $aideChanges | grep "f <")
+                #		*)
+		getOption="tryagain"
+		echo "error"
+		;;
+	esac
+
+done 
+#mailx -s "report" user1
+

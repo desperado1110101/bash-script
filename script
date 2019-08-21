@@ -1,0 +1,26 @@
+#!/bin/bash
+echo hell world
+t=$(whoami)
+echo i am $t 
+# yes its working
+mkdir /home/$t/securityinfo
+touch /home/$t/securityinfo/one 
+touch /home/$t/securityinfo/two
+touch /home/$t/securityinfo/three
+
+echo Hell world
+t=$(whoami)
+echo please enter the folder name 
+read f
+read fn
+touch /home/$t/$f/$fn
+
+echo please enter file name
+read fn1
+touch /home/$t/$f/$fn1
+
+cp /home/$t/$f/* /home/$t/copyhere/
+#rm - f -r /home/$t/$fmkdir /home/$t/$f
+echo folder was greated 
+echo please enter file name
+

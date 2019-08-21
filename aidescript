@@ -1,0 +1,6 @@
+#!/bin/bash
+aide --config=/etc/aide/aide.conf --check
+if aide -c /etc/aide/aide.conf --check
+ then echo “AIDE detected NO changes”
+else
+ echo “Alert!: AIDE detected changes!”

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Its best to first run aide -c /etc/aide.aide.conf --init  in the command line then
+# then copy over with the cp /var/lib/aide.db.new /var/lib/aide.db to have a fresh copy of the current database
+# before you execute this script.
+
+if aide -c /etc/aide/aide.conf --check > aide_result  
+then
+clear
+echo -e  "\e[92mNO CHANGES DETECTED  \e[0mYour system is safe"
+else
+# to send mail just type  sendmail (username)@(network name) and then  insert the file information with full path if needed
+#  EG:    sendmail spiros@kalinetwork < aide_result
+# It should work in the script but i just done the sudo ./s1 command to be able to work with cronos, its the same sendmail command but in a seperate script.
+sudo ./s1
+echo -e "\e[0m!!!!! \e[1;31;42;5mWARNING \e[0m!!!!! \e[0mAide has detected changes on your system" 
+fi
+# this is me collecting the results and sending them to my own database that i made a file for. 
+cat aide_result >> /var/lib/aide/aide_database
+aide -c /etc/aide/aide.conf --init
+cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+
+# The rest above here just resets the database after a check to not be copying  or checking the same information
+

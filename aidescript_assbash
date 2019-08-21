@@ -1,0 +1,63 @@
+#!/bin/bash
+#start from white list ( mean clear screen from revios  actions
+clear
+
+
+
+cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+
+# checking aide database about changes
+aide --config=/etc/aide/aide.conf --check > aide_result
+
+#cat aide_result
+
+#if [ $? != 0 ]
+if [ $? == 0 ]
+then
+	echo "no changes has been made"
+
+else
+	echo "few changes has been detected"
+	sendmail desperado@kali < Alert
+fi
+	echo List of added files > aide_final_file
+	grep -i "f++++++++++++++++" aide_result >> aideres
+	cut -b 19- aideres > aide_final_file
+
+	echo "  " >> aide_final_file
+	echo List of removed files >> aide_final_file
+	grep -i "f\-\-\-\-\-" aide_result >> aideres
+	cut -b 10- aideres > aide_final_file
+
+	echo " " >> aide_final_file
+	echo List of changed files >> aide_final_file
+	grep -i "f <" aide_result >> aideres
+	grep -i "f >" aide_result >> aideres
+	grep -i "f =" aide_result >> aideres
+	cut -b 15- aideres > aide_final_file
+	cat aide_final_file
+fi
+
+
+
+# if we have no changes then
+
+#print on screen  no changes
+#echo -e  "NO CHANGES DETECTED"
+# if changes was detected 
+
+
+#send mail to user desperado  about changes  attaching the file 
+sendmail desperado@kali < aide_result 
+
+
+
+#loading into file init of aide for next check 
+#aide -c /etc/aide/aide.conf --init
+#refreshing database  copying new file on top of old
+#preperations for next check
+#cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+
+
+
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+grep -i "f++++++++++++++++" aide_result > aideres
+touch aide_added_file 
+echo "added files" > aide_added_file
+cut -b 19- aideres >> aide_added_file
+
+#grep -i "f\-\-\-:" aide_result > aideres
+#cut -b 10- aideres > aide_removed_files
+
+
+#grep -i "f <" aideresult > aideres
+#grep -i "f >" aideresult >> aideres
+#grep -i "f =" aideresult >> aideres
+#cut -b 15- aideres > aide_changed_files
+

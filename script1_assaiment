@@ -1,0 +1,14 @@
+#!/bin/bash
+cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+# checking aide database about changes
+aide --config=/etc/aide/aide.conf --check > aide_result
+if [ $? == 0 ]
+then
+	echo "no changes has been made"
+
+else
+	echo "few changes has been detected"
+	echo "Alert was sended to user desperado"
+	sendmail desperado@kali < Alert
+fi
+	

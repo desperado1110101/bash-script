@@ -1,0 +1,26 @@
+#!bin/bash
+ echo hell world
+               t=$(whoami)
+
+mkdir /home/$t 
+              mkdir /home/$t/securityinfo
+              touch /home/$t/securityinfo/one
+                touch /home/$t/securityinfo/two
+                touch /home/$t/securityinfo/three
+echo folder one two and three was greated 
+             
+                t=$(whoami)
+             echo please enter the folder name
+                 read ff 
+               mkdir /home/$t/$ff
+             echo please enter the file name 
+                read fl
+               touch /home/$t/$ff/$fl
+               mkdir /home/$t/copyhere
+              cp /home/$t/$ff/*  /home/$t/copyhere
+              
+                rm -r -f /home/$t/$ff/
+           
+
+              chmod +x myscript
+

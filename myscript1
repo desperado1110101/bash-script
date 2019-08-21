@@ -1,0 +1,17 @@
+#!/bin/bash
+
+aide --config=/etc/aide/aide.conf --check
+
+echo $?
+
+if [ $? == 0 ]
+then
+  echo "no changes has been made"
+fi
+
+if [ $? != 0 ]
+then
+ echo "few changes has been detected"
+fi
+
+
